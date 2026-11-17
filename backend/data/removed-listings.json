@@ -1,0 +1,1137 @@
+{
+ "version": 1,
+ "titles": [
+  {
+   "company": "Mercor",
+   "title": "(US Only) iPhone Users: Earn Money for Sharing Your Fitness Data"
+  },
+  {
+   "company": "Mercor",
+   "title": "Stanford Youth Study — US Parents & Kids (Age 9–13)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Network Engineering & Simulation Expert — Hephaestus"
+  },
+  {
+   "company": "Mercor",
+   "title": "Network Engineer - Talent Network (Data for Autonomous Systems)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Mechanical Engineer"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chip Design Expert (RTL Design & Verification)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Business Operations / Knowledge Work Specialist"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music & Lyrics Expert - Thai"
+  },
+  {
+   "company": "Mercor",
+   "title": "Lifestyle & Travel Concierge Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Biology & Life Sciences Domain Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Infrastructure / Site Reliability Engineer (SRE)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Application Users - Excel on macOS - Professionals"
+  },
+  {
+   "company": "Mercor",
+   "title": "Excel Expert — Finance"
+  },
+  {
+   "company": "Mercor",
+   "title": "Mathematician Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Lawyer Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Physicist Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Nursing Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Physician Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Machine Learning Engineer Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Business Intelligence Analyst Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Software Engineer (AI-Native Platform & Integrations)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Frontend Engineer Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "DevOps / Platform Engineer Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Backend Engineer Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Full-Stack Engineer Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "SOC Investigation Specialist Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Applied Engineer, Evaluations Role"
+  },
+  {
+   "company": "Mercor",
+   "title": "Generalist"
+  },
+  {
+   "company": "Mercor",
+   "title": "Mechanical Engineering Writer"
+  },
+  {
+   "company": "Mercor",
+   "title": "Civil Engineering Writer"
+  },
+  {
+   "company": "Mercor",
+   "title": "US Contract Attorney — In-House Counsel"
+  },
+  {
+   "company": "Mercor",
+   "title": "Legal Domain Expert — AI Training & Evaluation"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music Production Expert - Thai"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music Production Expert - Korean"
+  },
+  {
+   "company": "Mercor",
+   "title": "Search Generalist"
+  },
+  {
+   "company": "Mercor",
+   "title": "Behavioral Health Expert, AI Safety and Model Evaluation"
+  },
+  {
+   "company": "Mercor",
+   "title": "Systems & Integration Engineering Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Mechanical Engineering Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music & Lyrics Expert - German"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music Production Expert - German"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music Production Expert - French"
+  },
+  {
+   "company": "Mercor",
+   "title": "Software & Firmware Engineering Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music & Lyrics Expert - Korean"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music Production Expert - Hindi"
+  },
+  {
+   "company": "Mercor",
+   "title": "Electrical & Hardware Engineering Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Music & Lyrics Expert - Japanese"
+  },
+  {
+   "company": "Mercor",
+   "title": "Colorist & Finishing Editor"
+  },
+  {
+   "company": "Mercor",
+   "title": "Bilingual Danish Generalist Expert — AI Safety"
+  },
+  {
+   "company": "Mercor",
+   "title": "Bilingual Polish Generalist Expert — AI Safety"
+  },
+  {
+   "company": "Mercor",
+   "title": "Bilingual Portuguese Generalist Expert — AI Safety"
+  },
+  {
+   "company": "Mercor",
+   "title": "Expert Interviewer"
+  },
+  {
+   "company": "Mercor",
+   "title": "Bilingual French Generalist Expert — AI Safety"
+  },
+  {
+   "company": "Mercor",
+   "title": "Voice Actor: CX Agent Voice Cloning (Spanish - Latin America)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Swahili Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Greek Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Hebrew Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Thai Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Indonesian Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Bangla Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Hindi Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Arabic Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Traditional Chinese Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Simplified Chinese Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Korean Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Latin American Spanish Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Polish Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Brazilian Portuguese Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "European Portuguese Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish (Venezuela) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish (United States) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish (Peru) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Mexican Spanish Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish (Colombia) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish (Chile) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish (Argentina) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chinese (Taiwan) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chinese (Singapore) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chinese (Hong Kong SAR China) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chinese (China) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "German Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "English (New Zealand) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Canadian English Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Australian English Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "British English Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Ukrainian Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Turkish Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Vietnamese Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Russian Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Romanian Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Finnish Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Dutch Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Danish Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Czech Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Armenian Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Japanese Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Italian Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "French Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish (Spain) Linguistic Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Certified Pharmacy Technician (CPhT)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Licensed US Pharmacist"
+  },
+  {
+   "company": "Mercor",
+   "title": "Vietnamese Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Indonesian Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Malay Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Japanese Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chinese Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Telugu Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Hindi Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Arabic Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Turkish Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Russian Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "German Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Portuguese Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "Spanish Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "English Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "French Linguistic Experts"
+  },
+  {
+   "company": "Mercor",
+   "title": "US Contract Attorney — Litigation"
+  },
+  {
+   "company": "Mercor",
+   "title": "US Contract Attorney — Transactional"
+  },
+  {
+   "company": "Mercor",
+   "title": "Generalist Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Data Analysis Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Education & Training Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Office & Productivity Software Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Finance Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Humanities Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Arts & Design Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Legal Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Engineering Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Software Engineering Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Consumer & Lifestyle Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Medical Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Life, Physical & Social Science Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Business Operations Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Language & Audio Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Electrical Engineering Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Mechanical Engineering Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Mathematics Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Physics Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Materials Science Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chemistry Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Biotechnology Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Biology Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Machine Learning Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Asset & Wealth Management Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Management Consulting Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Legal Expert (J.D./LL.B.)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Medical Expert (M.D./D.O.)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Legacy Codebase Migration Expert"
+  },
+  {
+   "company": "Mercor",
+   "title": "Cybersecurity Research Expert – Offensive Security & Vulnerability Research"
+  },
+  {
+   "company": "Mercor",
+   "title": "Compliance & Risk Specialist Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Management Consultant Talent Network ($60 - $100/h)"
+  },
+  {
+   "company": "Mercor",
+   "title": "Physical Scientist Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Graphic & UX/UI Designer Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Marketing Specialist Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "HR & Administration Specialist Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Financial Analyst Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Chemist Talent Network"
+  },
+  {
+   "company": "Mercor",
+   "title": "Biologist Talent Network"
+  },
+  {
+   "company": "micro1",
+   "title": "AI Conversation Evaluator"
+  },
+  {
+   "company": "micro1",
+   "title": "Game Developer (Godot Expert)"
+  },
+  {
+   "company": "micro1",
+   "title": "Digital Illustrator (Krita Expert)"
+  },
+  {
+   "company": "micro1",
+   "title": "Electronics Engineer (DesignSpark PCB Specialist)"
+  },
+  {
+   "company": "micro1",
+   "title": "Mathematics Expert (MSc./PhD)"
+  },
+  {
+   "company": "micro1",
+   "title": "AI Trainer (SWE)"
+  },
+  {
+   "company": "micro1",
+   "title": "Senior Software Engineer"
+  },
+  {
+   "company": "micro1",
+   "title": "STEM Expert (MSc./PhD)"
+  },
+  {
+   "company": "micro1",
+   "title": "Hardware Expert (MSc. or PhD)"
+  },
+  {
+   "company": "micro1",
+   "title": "ML Engineer (MSc. or PhD)"
+  },
+  {
+   "company": "micro1",
+   "title": "KiCad PCB Design Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "FreeCAD Expert (BIM & IFC Focus)"
+  },
+  {
+   "company": "micro1",
+   "title": "Krita Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Godot Game Engine expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Libresprite Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "LibreCAD Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Electronics Simulation Engineer (NgSpice)"
+  },
+  {
+   "company": "micro1",
+   "title": "OpenSCAD Developer"
+  },
+  {
+   "company": "micro1",
+   "title": "Medical Imaging & Segmentation Specialist (3D Slicer)"
+  },
+  {
+   "company": "micro1",
+   "title": "Electronic Engineer (Qucs-S)"
+  },
+  {
+   "company": "micro1",
+   "title": "Electronics Specialist - LTspice"
+  },
+  {
+   "company": "micro1",
+   "title": "Solar2D Game Developer"
+  },
+  {
+   "company": "micro1",
+   "title": "Python Game Developer (Panda3D)"
+  },
+  {
+   "company": "micro1",
+   "title": "Engineering Design & Simulation Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "Software Engineer (Open 3D Engine)"
+  },
+  {
+   "company": "micro1",
+   "title": "2D Game Developer (Defold)"
+  },
+  {
+   "company": "micro1",
+   "title": "Inkscape Design Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "Aerospace/Automotive Engineering Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "2D Graphic Design & Image Editing Expert (GIMP)"
+  },
+  {
+   "company": "micro1",
+   "title": "Blender Bonsai Specialist – BIM/Architecture"
+  },
+  {
+   "company": "micro1",
+   "title": "DesignSpark PCB Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "CAD Modeling Specialist (SolveSpace)"
+  },
+  {
+   "company": "micro1",
+   "title": "Vectorworks Architecture BIM Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "ParaView Scientific Visualization Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "Military Operations & Reporting SME"
+  },
+  {
+   "company": "micro1",
+   "title": "Senior DoD Staff Writing SME"
+  },
+  {
+   "company": "micro1",
+   "title": "Federal Staff Reporting Analyst"
+  },
+  {
+   "company": "micro1",
+   "title": "Military Writing Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "Naval Subject Matter Expert (Cleared)"
+  },
+  {
+   "company": "micro1",
+   "title": "Senior Marine Cargo and Draft Surveyor"
+  },
+  {
+   "company": "micro1",
+   "title": "Legal Specialist (Microsoft Office User)"
+  },
+  {
+   "company": "micro1",
+   "title": "Marketing Specialist (Microsoft Office User)"
+  },
+  {
+   "company": "micro1",
+   "title": "Image Evaluation Expert (Visual Arts / Photography)"
+  },
+  {
+   "company": "micro1",
+   "title": "Spanish Bilingual Expert (Mexico)"
+  },
+  {
+   "company": "micro1",
+   "title": "Tamil Bilingual Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Management Consulting Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Financial Due Diligence & Transaction Accounting"
+  },
+  {
+   "company": "micro1",
+   "title": "Investment Banking & M&A Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Corporate Finance & Financial Modeling Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Member of Technical Staff, Model Training (infra & platform)"
+  },
+  {
+   "company": "micro1",
+   "title": "Air Traffic Controller"
+  },
+  {
+   "company": "micro1",
+   "title": "Aircraft Pilot"
+  },
+  {
+   "company": "micro1",
+   "title": "Member of Technical Staff, Model Training (applied research)"
+  },
+  {
+   "company": "micro1",
+   "title": "Member of Technical Staff, Model Training (post-training research)"
+  },
+  {
+   "company": "micro1",
+   "title": "Certified Inpatient Medical Coder"
+  },
+  {
+   "company": "micro1",
+   "title": "Registered Nurse"
+  },
+  {
+   "company": "micro1",
+   "title": "Hospitality Worker (Toast POS User)"
+  },
+  {
+   "company": "micro1",
+   "title": "Food Delivery App User Tester"
+  },
+  {
+   "company": "micro1",
+   "title": "Food Delivery AI Response Evaluator"
+  },
+  {
+   "company": "micro1",
+   "title": "Chief of Staff"
+  },
+  {
+   "company": "micro1",
+   "title": "Procurement & Vendor Management Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "HR & People Operations Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Business Operations Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Legal & Compliance Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Finance & Accounting Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Member of Technical Staff, Data Engineering"
+  },
+  {
+   "company": "micro1",
+   "title": "Member of Technical Staff, Quality Engineering"
+  },
+  {
+   "company": "micro1",
+   "title": "Member of Technical Staff, Infrastructure"
+  },
+  {
+   "company": "micro1",
+   "title": "Army Combat Operations Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Military Operations Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Weapons Systems Operator"
+  },
+  {
+   "company": "micro1",
+   "title": "Special Forces Operator"
+  },
+  {
+   "company": "micro1",
+   "title": "Fighter Pilot"
+  },
+  {
+   "company": "micro1",
+   "title": "Rust Architect / Backend Developer"
+  },
+  {
+   "company": "micro1",
+   "title": "Sales / Revenue / CS Operations Expert"
+  },
+  {
+   "company": "micro1",
+   "title": "Revenue Operations Specialist (SaaS)"
+  },
+  {
+   "company": "micro1",
+   "title": "AI Agent Tester - Real-World Tasks"
+  },
+  {
+   "company": "micro1",
+   "title": "Intelligence Analyst"
+  },
+  {
+   "company": "micro1",
+   "title": "Human Intelligence Collector (HUMINT)"
+  },
+  {
+   "company": "micro1",
+   "title": "Military Legal Advisor"
+  },
+  {
+   "company": "micro1",
+   "title": "Humanitarian Aid Representative"
+  },
+  {
+   "company": "micro1",
+   "title": "Data Science & Analytic Methodology SME"
+  },
+  {
+   "company": "micro1",
+   "title": "Cyber Threat Intelligence SME"
+  },
+  {
+   "company": "micro1",
+   "title": "Combat Arms & Targeting SME"
+  },
+  {
+   "company": "micro1",
+   "title": "Senior Cargo and Parcel Claims Examiner"
+  },
+  {
+   "company": "micro1",
+   "title": "Senior Insurance Claims Expert (Liability, Property, Contents)"
+  },
+  {
+   "company": "micro1",
+   "title": "Junior Lawyer"
+  },
+  {
+   "company": "micro1",
+   "title": "Law Student"
+  },
+  {
+   "company": "micro1",
+   "title": "US Macroeconomist"
+  },
+  {
+   "company": "micro1",
+   "title": "Investment Funds & Asset Management Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Venture Capital & Corporate Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "FDA & Regulatory Compliance Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Structured Finance Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Media, Publishing & Communications Law Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Military Law Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Domain Researcher, Finance (M&A)"
+  },
+  {
+   "company": "micro1",
+   "title": "Product Safety & Regulatory Compliance Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Gaming & Gambling Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Immigration Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Family Law Attorney (AAML Registered)"
+  },
+  {
+   "company": "micro1",
+   "title": "Healthcare Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Civil Rights Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Energy & Utilities Regulatory Attorney"
+  },
+  {
+   "company": "micro1",
+   "title": "Litigation Associate Attorney (BigLaw Firms)"
+  },
+  {
+   "company": "micro1",
+   "title": "Corporate Attorney (BigLaw Firms)"
+  },
+  {
+   "company": "micro1",
+   "title": "Life Sciences Research Expert (Python)"
+  },
+  {
+   "company": "micro1",
+   "title": "Inpatient Medical Coder"
+  },
+  {
+   "company": "micro1",
+   "title": "Domain Contributor - Evaluation Specialist"
+  },
+  {
+   "company": "micro1",
+   "title": "Research Evaluation Specialist (PhD or Masters / Researcher / Professor)"
+  },
+  {
+   "company": "micro1",
+   "title": "Evaluation Specialist/Recent Grad"
+  },
+  {
+   "company": "micro1",
+   "title": "Certified Inpatient Coder"
+  },
+  {
+   "company": "micro1",
+   "title": "Inpatient Coder (CCS)"
+  },
+  {
+   "company": "micro1",
+   "title": "Inpatient Care Physician (MD/DO)"
+  },
+  {
+   "company": "micro1",
+   "title": "Photographer ($35 - $105/h)"
+  },
+  {
+   "company": "micro1",
+   "title": "Legal Citation Specialist (Law Students)"
+  },
+  {
+   "company": "micro1",
+   "title": "Talent Automation Lead"
+  },
+  {
+   "company": "micro1",
+   "title": "At-Home Video Recorder (LATAM)"
+  },
+  {
+   "company": "micro1",
+   "title": "At-Home Video Recorder"
+  },
+  {
+   "company": "micro1",
+   "title": "Investment Banking Associate ($120 - $150/h)"
+  },
+  {
+   "company": "micro1",
+   "title": "Mechanical Engineering Expert (MSc. or PhD)"
+  },
+  {
+   "company": "micro1",
+   "title": "Aerodynamics Expert (MSc. or PhD)"
+  },
+  {
+   "company": "micro1",
+   "title": "Puzzle Solver (Coding)"
+  },
+  {
+   "company": "micro1",
+   "title": "AI Product Evaluator"
+  },
+  {
+   "company": "Mercor",
+   "title": "Expert contract projects (AI training and evaluation)"
+  },
+  {
+   "company": "micro1",
+   "title": "AI training and evaluation projects"
+  },
+  {
+   "company": "AfterQuery",
+   "title": "Expert data projects (engineering, finance, law, medicine)"
+  }
+ ]
+}
