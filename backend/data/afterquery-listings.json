@@ -251,7 +251,7 @@
   "fields": [
    "general"
   ],
-  "min_level": "entry",
+  "min_level": "skilled",
   "country_mode": "all",
   "countries": [],
   "notes": "",
@@ -1057,7 +1057,7 @@
   "fields": [
    "general"
   ],
-  "min_level": "entry",
+  "min_level": "skilled",
   "country_mode": "all",
   "countries": [],
   "notes": "",
@@ -1242,8 +1242,11 @@
    "writing"
   ],
   "min_level": "skilled",
-  "country_mode": "all",
-  "countries": [],
+  "country_mode": "allow",
+  "countries": [
+   "GB",
+   "US"
+  ],
   "notes": "",
   "batch": 2
  },
@@ -2102,7 +2105,7 @@
   "fields": [
    "general"
   ],
-  "min_level": "entry",
+  "min_level": "skilled",
   "country_mode": "all",
   "countries": [],
   "notes": "",

@@ -142,7 +142,10 @@
 
   function renderOpps() {
     const u = JP.user;
-    $('#oppsIntro').textContent = `Showing what fits ${u.level === 'student' ? 'someone starting out' : 'your skills'} in ${JP.countryName(u.country)}.`;
+    $('#oppsTitle').textContent = u.level === 'student' ? 'Starter opportunities' : 'Opportunities for you';
+    $('#oppsIntro').textContent = u.level === 'student'
+      ? `Student-friendly generalist roles in ${JP.countryName(u.country)}.`
+      : `Showing what fits your skills in ${JP.countryName(u.country)}.`;
     $('#refNotice').hidden = !opps.eligible.some(o => o.is_referral);
     const keys = [...new Set(opps.eligible.flatMap(o => o.fields))];
     $('#fieldChips').innerHTML = keys.length > 1

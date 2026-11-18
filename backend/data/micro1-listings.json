@@ -1108,6 +1108,20 @@
   "batch": 1
  },
  {
+  "title": "AI Conversation Evaluator",
+  "summary": "Evaluate AI conversations for a micro1 project. Check micro1's listing for current role details, requirements, and eligibility.",
+  "work_type": "AI evaluation",
+  "pay_note": "",
+  "fields": [
+   "general"
+  ],
+  "min_level": "entry",
+  "country_mode": "all",
+  "countries": [],
+  "notes": "Check the live micro1 listing for current details.",
+  "batch": 4
+ },
+ {
   "title": "Generalist - Korean Speaker",
   "summary": "Hourly contract work, as listed on micro1's job board on 14 Nov 2026. micro1 decides who is accepted and can change the role, hours or pay, or close it, at any time.",
   "work_type": "Hourly contract work",
@@ -1116,7 +1130,7 @@
    "general",
    "writing"
   ],
-  "min_level": "entry",
+  "min_level": "skilled",
   "country_mode": "all",
   "countries": [],
   "notes": "micro1 shows \"Refer and earn $100\" on this listing. Skills listed: Korean language proficiency, Data annotation, Attention to detail.",
@@ -1131,7 +1145,7 @@
    "general",
    "writing"
   ],
-  "min_level": "entry",
+  "min_level": "skilled",
   "country_mode": "all",
   "countries": [],
   "notes": "micro1 shows \"Refer and earn $100\" on this listing. Skills listed: Basic coding knowledge, Fluency in mandarin, Data annotation.",
@@ -1301,7 +1315,7 @@
   "fields": [
    "general"
   ],
-  "min_level": "entry",
+  "min_level": "skilled",
   "country_mode": "allow",
   "countries": [
    "US"
@@ -1872,8 +1886,10 @@
    "creative"
   ],
   "min_level": "entry",
-  "country_mode": "all",
-  "countries": [],
+  "country_mode": "allow",
+  "countries": [
+   "US"
+  ],
   "notes": "micro1 shows \"Refer and earn $100\" on this listing. Skills listed: Data collection, Device operation, Attention to detail.",
   "batch": 1
  },
@@ -2018,8 +2034,10 @@
    "creative"
   ],
   "min_level": "entry",
-  "country_mode": "all",
-  "countries": [],
+  "country_mode": "allow",
+  "countries": [
+   "JP"
+  ],
   "notes": "micro1 shows \"Refer and earn $100\" on this listing. Skills listed: Video recording, Device setup and operation, Attention to detail.",
   "batch": 1
  },
@@ -2454,8 +2472,10 @@
    "writing"
   ],
   "min_level": "entry",
-  "country_mode": "all",
-  "countries": [],
+  "country_mode": "allow",
+  "countries": [
+   "US"
+  ],
   "notes": "micro1 shows \"Refer and earn $100\" on this listing. Skills listed: Voice recording.",
   "batch": 1
  },
@@ -3679,8 +3699,10 @@
    "law"
   ],
   "min_level": "skilled",
-  "country_mode": "all",
-  "countries": [],
+  "country_mode": "allow",
+  "countries": [
+   "US"
+  ],
   "notes": "Added from your referral list: pay not shown, check it on micro1.",
   "batch": 3
  },

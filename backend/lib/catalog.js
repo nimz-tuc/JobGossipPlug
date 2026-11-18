@@ -10,7 +10,7 @@ const FIELDS = [
   { key: 'law', label: 'Law' },
   { key: 'creative', label: 'Design, video & music' },
   { key: 'writing', label: 'Languages & writing' },
-  { key: 'general', label: 'General tasks (no special skills)' },
+  { key: 'general', label: 'Starter & generalist opportunities' },
 ];
 const LEVELS = ['student', 'skilled']; // student = starting out / no professional skills yet
 

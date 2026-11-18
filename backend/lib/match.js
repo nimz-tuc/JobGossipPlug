@@ -1,6 +1,6 @@
 /**
  * Decides whether an opportunity suits a visitor.
- *   level:   an opportunity marked 'skilled' is not offered to someone who is just starting out ('student').
+ *   level:   only 'entry' opportunities are offered to someone who is just starting out ('student').
  *   country: mode 'allow' = only these countries, 'block' = everyone except these, 'all' = no rule.
  * Fields never exclude anyone, they only decide the order (opportunities in the visitor's fields come first).
  */
@@ -18,13 +18,12 @@ function matchesFields(opp, user) {
   return !mine.length || !theirs.length || theirs.some(f => mine.includes(f));
 }
 
-/** Splits all active opportunities into { eligible, unavailable } for one visitor, best matches first. */
+/** Splits active opportunities into those suitable for a visitor, best matches first. */
 function sortForUser(opps, user) {
   const eligible = [], unavailable = [];
   for (const o of opps) {
     const v = evaluate(o, user);
     if (v.ok) eligible.push({ ...o, field_match: matchesFields(o, user) });
-    else unavailable.push({ ...o, reason: v.reason });
   }
   const rank = (a, b) => (b.field_match - a.field_match) || (a.sort_order - b.sort_order) || (a.id - b.id);
   eligible.sort(rank);

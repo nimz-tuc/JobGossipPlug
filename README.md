@@ -6,7 +6,7 @@ clearly labelled "Referral link" and the visitor is told you may earn a reward.
 
 ## How it works
 - Sign-up asks: country, "student / starting out" or "skilled", and fields of interest.
-- Opportunities have rules you edit in the Admin page: beginner-friendly or skilled-only, plus an optional country allow/block list.
+- Student profiles see the approved starter opportunities: the undergrad opportunity, AI Conversation Evaluator, micro1 Generalist, and Mercor Application Users roles. Skilled profiles can see both entry-level and skilled roles, subject to country rules.
 - Press Apply: the server re-checks the rules, counts the click, and returns your referral link (or the company's normal page if you have none).
 - Referral links never appear in the page source; visitors only get one when they press Apply.
 

@@ -45,7 +45,8 @@ h1,h2,h3,p{margin:0}
 
 /* auth */
 .auth-gate{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:28px 16px}
-.auth-card{width:100%;max-width:460px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:var(--shadow)}
+.auth-card{position:relative;overflow:hidden;width:100%;max-width:460px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:var(--shadow)}
+.auth-card:before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--blue),#8eb2ff 65%,#f0bd58)}
 .auth-heading h1{font:800 26px var(--display);color:var(--navy)}
 .auth-heading p{color:var(--muted);margin-top:4px}
 .auth-tabs{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:var(--surface-2);border:1px solid var(--line-soft);border-radius:11px;padding:4px;margin:20px 0 16px}
@@ -208,14 +209,15 @@ details.panel summary{cursor:pointer;font-weight:700;color:var(--blue)}
 .opportunity-section{max-width:none;background:#f7f9fd}
 .opportunity-section>.section-heading,.opportunity-section>.category-grid,.opportunity-section>.section-action{max-width:1136px;margin-left:auto;margin-right:auto}
 .category-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
-.category-card{min-height:126px;display:flex;align-items:flex-start;gap:14px;padding:20px;background:#fff;border:1px solid #e6edf8;border-radius:13px}
+.category-card{min-height:126px;display:flex;align-items:flex-start;gap:14px;padding:20px;background:#fff;border:1px solid #e6edf8;border-radius:13px;transition:border-color .18s,box-shadow .18s}
+.category-card:hover{border-color:#c5d6f5;box-shadow:0 9px 22px #0e1b3d0d}
 .category-card>span{width:39px;height:39px;flex:none;display:grid;place-items:center;border-radius:11px;background:#edf3ff;color:var(--blue);font-size:20px;font-weight:700}
 .category-card h3{margin-top:1px;font-size:15px}
 .category-card p{font-size:12px}
 .section-action{display:flex;justify-content:center;margin-top:27px}
 .steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .step-card{position:relative;padding:22px 22px 22px 0;border-top:1px solid var(--line)}
-.step-number{color:var(--blue);font:800 13px var(--display);letter-spacing:1px}
+.step-number{width:34px;height:34px;display:inline-grid;place-items:center;border:1px solid #d5e3fc;border-radius:50%;background:#edf3ff;color:var(--blue);font:800 12px var(--display);letter-spacing:.5px}
 .step-card h3{margin-top:13px}
 .landing-cta{max-width:1136px;margin:10px auto 70px;padding:35px 42px;border-radius:18px;background:linear-gradient(110deg,#123a89,#2563eb);display:flex;align-items:center;justify-content:space-between;gap:25px;box-shadow:0 16px 32px #1b4fc426}
 .landing-cta .eyebrow{color:#c6d9ff}
@@ -275,10 +277,10 @@ details.panel summary{cursor:pointer;font-weight:700;color:var(--blue)}
 .opps-banner .page-head,.page-banner .page-head{position:relative;z-index:1;margin:0}
 .opps-banner .page-head h1,.page-banner .page-head h1{font-size:30px}
 .opps-banner .page-head p,.page-banner .page-head p{max-width:590px}
-.opps-banner-art{position:absolute;right:48px;top:50%;width:205px;height:155px;transform:translateY(-50%)}
-.opps-orbit{position:absolute;right:10px;top:3px;width:145px;height:145px;border:1px solid #c8d9f6;border-radius:50%;box-shadow:0 0 0 18px #eaf1ff80,0 0 0 38px #f4f7ff}
-.opps-star{position:absolute;right:21px;top:10px;color:#efa92f;font-size:24px}
-.opps-art-card{position:absolute;left:2px;top:40px;width:155px;padding:12px;background:#fff;border:1px solid #e0e9f8;border-radius:13px;box-shadow:0 12px 28px #173a7520;transform:rotate(-4deg)}
+.opps-banner-art{position:absolute;right:40px;top:50%;width:210px;height:170px;transform:translateY(-50%)}
+.opps-orbit{position:absolute;right:5px;top:5px;width:160px;height:160px;border:1px solid #c8d9f6;border-radius:50%;box-shadow:0 0 0 15px #eaf1ff80,0 0 0 32px #f4f7ff}
+.opps-star{position:absolute;right:18px;top:9px;color:#efa92f;font-size:24px}
+.opps-art-card{position:absolute;left:48px;top:42px;width:150px;padding:12px;background:#fff;border:1px solid #e0e9f8;border-radius:13px;box-shadow:0 12px 28px #173a7520;transform:rotate(-3deg)}
 .opps-art-icon{display:grid;place-items:center;width:28px;height:28px;border-radius:9px;background:#e8efff;color:var(--blue);font-weight:800}
 .opps-art-card b,.opps-art-card small{display:block}
 .opps-art-card b{margin-top:9px;color:var(--navy);font-size:12px}
@@ -291,8 +293,7 @@ details.panel summary{cursor:pointer;font-weight:700;color:var(--blue)}
 .notice-spark{color:#d39b16;font-size:18px}
 .profile-banner,.privacy-banner{min-height:154px;padding:25px 28px;margin-bottom:20px}
 .profile-banner-art{position:absolute;right:46px;top:50%;width:96px;height:96px;transform:translateY(-50%);display:grid;place-items:center;border:1px solid #cbdcf8;border-radius:50%;background:radial-gradient(circle,#fff 0 29%,#e8f0ff 30% 58%,#dce8fc 59%);box-shadow:0 0 0 14px #f2f6ff}
-.profile-banner-art span{position:absolute;right:7px;top:3px;color:#eeae31;font-size:20px}
-.profile-banner-art b{color:var(--blue);font:800 16px var(--display);letter-spacing:1px}
+.profile-banner-art span{display:grid;place-items:center;width:100%;height:100%;color:#eeae31;font-size:30px}
 .profile-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(230px,.8fr);align-items:start;gap:18px}
 .profile-form{max-width:none;padding:22px}
 .profile-form-heading{display:flex;justify-content:space-between;align-items:center;gap:15px;padding-bottom:15px;border-bottom:1px solid var(--line-soft)}
@@ -319,12 +320,13 @@ details.panel summary{cursor:pointer;font-weight:700;color:var(--blue)}
 @media (max-width:700px){
   .opps-banner{min-height:155px;padding:22px 20px}
   .opps-banner .page-head h1,.page-banner .page-head h1{font-size:25px}
-  .opps-banner-art{right:-57px;opacity:.65}
+  .opps-banner .page-head{max-width:100%}
+  .opps-banner-art{display:none}
+  .profile-banner-art{display:none}
   .notice{align-items:flex-start;gap:10px;padding:13px}
   .notice-mark{width:30px;height:30px}
   .notice-spark{display:none}
   .profile-banner,.privacy-banner{min-height:140px;padding:21px 20px}
-  .profile-banner-art{right:25px;width:68px;height:68px;opacity:.8}
   .privacy-banner-art{right:23px;width:57px;height:57px;font-size:25px}
   .profile-layout,.privacy-layout{grid-template-columns:1fr}
   .profile-sidecard{order:2}
