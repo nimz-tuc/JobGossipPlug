@@ -90,6 +90,37 @@ const importMercor = db => importCompany(db, { company: 'Mercor', file: 'mercor-
 const importAfterQuery = db => importCompany(db, { company: 'AfterQuery', file: 'afterquery-listings.json', url: 'https://www.afterquery.com/', prefix: 'afterquery_import_v' });
 const importMicro1 = db => importCompany(db, { company: 'micro1', file: 'micro1-listings.json', url: 'https://www.micro1.ai/', prefix: 'micro1_import_v' });
 
+/** Ensures a newly added referral listing is inserted even if all earlier Micro1 import batches have already run. */
+async function ensureSmartphoneVideoRecorder(db) {
+  const KEY = 'smartphone_video_recorder_v1';
+  if ((await db.query('SELECT 1 FROM jp_meta WHERE key = $1', [KEY])).rowCount) return;
+  await db.query(
+    `INSERT INTO jp_opportunities
+       (company, title, summary, work_type, pay_note, fields, min_level, country_mode, countries, apply_url, notes, sort_order)
+     VALUES
+       ('micro1', 'Smartphone Video Recorder',
+        'Hourly contract work, as listed on micro1''s job board. micro1 decides who is accepted and can change the role, hours or pay, or close it, at any time.',
+        'Hourly contract work', '$14 - $15 / hour (as listed by micro1)',
+        ARRAY['general','creative'], 'entry', 'all', ARRAY[]::text[],
+        'https://jobs.micro1.ai/post/8944ed79-063d-43e2-a244-bd3185fbfb43',
+        '4000 openings. Skills listed: Household task, Attention to detail, Video recording.', 100)
+     ON CONFLICT DO UPDATE SET
+       summary = EXCLUDED.summary,
+       work_type = EXCLUDED.work_type,
+       pay_note = EXCLUDED.pay_note,
+       fields = EXCLUDED.fields,
+       min_level = EXCLUDED.min_level,
+       country_mode = EXCLUDED.country_mode,
+       countries = EXCLUDED.countries,
+       apply_url = EXCLUDED.apply_url,
+       notes = EXCLUDED.notes,
+       active = TRUE,
+       updated_at = now()`,
+  );
+  await db.query('INSERT INTO jp_meta (key) VALUES ($1) ON CONFLICT DO NOTHING', [KEY]);
+  console.log('Ensured the Smartphone Video Recorder listing exists.');
+}
+
 /** Attaches YOUR referral links (data/referral-links.json) to the listings, once per file version. Never overwrites a link you already set yourself. */
 async function applyReferralLinks(db) {
   const file = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'referral-links.json'), 'utf8'));
@@ -198,6 +229,7 @@ async function run(db) {
   await importMercor(db);
   await importAfterQuery(db);
   await importMicro1(db);
+  await ensureSmartphoneVideoRecorder(db);
   await applyReferralLinks(db);
   await pruneListings(db);
   await applyCatalogRuleFixes(db);
@@ -207,5 +239,6 @@ async function run(db) {
 
 module.exports = {
   run, importMercor, importAfterQuery, importMicro1, applyReferralLinks, pruneListings,
-  applyCatalogRuleFixes, applyStudentOpportunityRules, applyApplicationUserStudentRules, studentMinLevel, SEED,
+  applyCatalogRuleFixes, applyStudentOpportunityRules, applyApplicationUserStudentRules,
+  ensureSmartphoneVideoRecorder, studentMinLevel, SEED,
 };
