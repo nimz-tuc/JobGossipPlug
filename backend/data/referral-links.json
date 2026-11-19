@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "links": [
   {
    "company": "micro1",
@@ -4530,6 +4530,12 @@
    "title": "Customer Success Engineer (LatAm)",
    "url": "https://t.mercor.com/bIgVb",
    "apply": "https://www.mercor.com/"
+  },
+  {
+   "company": "micro1",
+   "title": "Smartphone Video Recorder",
+   "url": "https://jobs.micro1.ai/post/8944ed79-063d-43e2-a244-bd3185fbfb43?referralCode=238126b5-b9b5-49fa-9484-3ba998400095&utm_source=referral&utm_medium=share&utm_campaign=job_referral",
+   "apply": "https://jobs.micro1.ai/post/8944ed79-063d-43e2-a244-bd3185fbfb43"
   }
  ]
 }

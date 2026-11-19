@@ -4046,5 +4046,20 @@
   "countries": [],
   "notes": "Added from your referral list: pay not shown, check it on micro1.",
   "batch": 3
+ },
+ {
+  "title": "Smartphone Video Recorder",
+  "summary": "Hourly contract work, as listed on micro1's job board. micro1 decides who is accepted and can change the role, hours or pay, or close it, at any time.",
+  "work_type": "Hourly contract work",
+  "pay_note": "$14 - $15 / hour (as listed by micro1)",
+  "fields": [
+   "general",
+   "creative"
+  ],
+  "min_level": "entry",
+  "country_mode": "all",
+  "countries": [],
+  "notes": "4000 openings. Skills listed: Household task, Attention to detail, Video recording.",
+  "batch": 4
  }
 ]

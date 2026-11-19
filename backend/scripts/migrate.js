@@ -29,6 +29,7 @@ const STUDENT_STARTER_ROLES = [
   { company: 'AfterQuery', title: 'Students Across All Disciplines (Undergrad)' },
   { company: 'micro1', title: 'AI Conversation Evaluator' },
   { company: 'micro1', title: 'Generalist' },
+  { company: 'micro1', title: 'Smartphone Video Recorder' },
   ...APPLICATION_USER_ROLES,
 ];
 const isStudentStarterRole = (company, title) => STUDENT_STARTER_ROLES.some(
@@ -146,7 +147,7 @@ async function applyCatalogRuleFixes(db) {
 
 /** Limits student feeds to the explicitly selected starter roles. */
 async function applyStudentOpportunityRules(db) {
-  const KEY = 'student_roles_v1';
+  const KEY = 'student_roles_v2';
   if ((await db.query('SELECT 1 FROM jp_meta WHERE key = $1', [KEY])).rowCount) return;
   const allowSql = STUDENT_STARTER_ROLES.map((_, i) =>
     `(lower(company) = lower($${i * 2 + 1}) AND lower(title) = lower($${i * 2 + 2}))`).join(' OR ');

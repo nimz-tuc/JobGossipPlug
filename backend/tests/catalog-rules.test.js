@@ -29,6 +29,7 @@ test('starter roles and all Application Users roles are available to students', 
     'AfterQuery:Students Across All Disciplines (Undergrad)',
     'micro1:AI Conversation Evaluator',
     'micro1:Generalist',
+    'micro1:Smartphone Video Recorder',
     ...applicationUserRoles,
   ].sort());
   assert.ok(applicationUserRoles.length > 0);
