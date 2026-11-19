@@ -104,7 +104,7 @@ async function ensureSmartphoneVideoRecorder(db) {
         ARRAY['general','creative'], 'entry', 'all', ARRAY[]::text[],
         'https://jobs.micro1.ai/post/8944ed79-063d-43e2-a244-bd3185fbfb43',
         '4000 openings. Skills listed: Household task, Attention to detail, Video recording.', 100)
-     ON CONFLICT DO UPDATE SET
+     ON CONFLICT (lower(company), lower(title)) DO UPDATE SET
        summary = EXCLUDED.summary,
        work_type = EXCLUDED.work_type,
        pay_note = EXCLUDED.pay_note,
