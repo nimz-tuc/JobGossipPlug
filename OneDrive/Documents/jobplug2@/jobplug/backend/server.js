@@ -28,6 +28,9 @@ app.use('/api', cors({ origin: cfg.CORS_ORIGINS }));
 app.use(express.json({ limit: '20kb' }));
 app.use('/api', (req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
 
+const root = path.join(__dirname, '..');
+app.get('/google3c0b91e46dba4afe.html', (req, res) => res.sendFile(path.join(root, 'google3c0b91e46dba4afe.html')));
+
 app.use('/api', require('./routes/public'));
 app.use('/api', require('./routes/auth'));
 app.use('/api/admin', require('./routes/admin'));
@@ -35,10 +38,8 @@ app.use('/api', require('./routes/opportunities')); // requires login on every p
 app.use('/api', (req, res) => res.status(404).json({ success: false, message: 'Not found.' }));
 
 // The website itself. Only these folders are served, never the backend folder or .env.
-const root = path.join(__dirname, '..');
 for (const dir of ['css', 'js']) app.use('/' + dir, express.static(path.join(root, dir), { maxAge: cfg.IS_PROD ? '5m' : 0 }));
 app.get('/', (req, res) => res.sendFile(path.join(root, 'index.html')));
-app.get('/google3c0b91e46dba4afe.html', (req, res) => res.sendFile(path.join(root, 'google3c0b91e46dba4afe.html')));
 
 app.use((err, req, res, next) => {
   if (res.headersSent) return next(err);
